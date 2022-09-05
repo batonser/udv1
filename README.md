@@ -1,7 +1,10 @@
 **INPUT="/root/scripts/file.txt"**
 **Здесь указывается файл в котором указываем сервера в виде **
+
 user IP PORT
+
 example
+
 root 127.0.0.1 22
 
 
