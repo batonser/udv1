@@ -3,6 +3,7 @@
 user@IP-PORT
 
 
-**cron.d**
-Запускаем каждый час
-*/60 * * * * root /to/path/scripts.sh
+**Крон задачу в /etc/cron.d/**
+**Запускаем каждый час**
+
+echo -e "#/bin/bash\n*/60 * * * * root /to/path/scripts.sh" > /etc/cron.d/copy
